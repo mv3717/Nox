@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gauthierbonvarlet.nox.FacebookParty"
+    >
+
+    <ListView
+        android:id="@+id/faceView"
+        android:layout_width="fill_parent"
+        android:layout_height="419dp"
+        android:layout_marginTop="316dp"
+        android:dividerHeight="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"></ListView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="317dp"
+        android:layout_marginBottom="420dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/infobar"
+        app:layout_constraintBottom_toBottomOf="@+id/faceView"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
